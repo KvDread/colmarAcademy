@@ -1,6 +1,29 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html, body{
+    margin:0px;
+}
 *{
     box-sizing: border-box;
+}
+header{
+    top: 0;
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.logotitle{
+    display:flex;
+    margin-left: 24px;
+    text-transform: uppercase;
+    align-items: center;
+}
+.navigation{
+    margin: 0 16px;
+    margin-right: 24px;
 }
