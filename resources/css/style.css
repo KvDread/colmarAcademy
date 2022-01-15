@@ -27,3 +27,31 @@ header{
     margin: 0 16px;
     margin-right: 24px;
 }
+
+/* Banner CSS */
+.banner{
+    display: flex;
+    background-color: darkgray;
+    margin-top: 32px;
+}
+
+.imagecontainer{
+    width:60%;
+    height: auto;
+    margin: 32px 24px;
+    overflow: hidden;
+}
+.rightlanding{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 60px;
+}
+.startbutton{
+    background-color: rgb(58, 57, 57);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color:white;
+    text-align: center;
+}
