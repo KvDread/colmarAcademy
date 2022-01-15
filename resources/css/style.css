@@ -1,5 +1,6 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(57, 57, 57);
 }
 html, body{
     margin:0px;
@@ -23,6 +24,13 @@ header{
     text-transform: uppercase;
     align-items: center;
 }
+.logotitle span{
+    font-size: 20px;
+}
+.logotitle img{
+    height: 45px;
+    width: 45px;
+}
 .navigation{
     margin: 0 16px;
     margin-right: 24px;
@@ -40,6 +48,11 @@ header{
     height: auto;
     margin: 32px 24px;
     overflow: hidden;
+    display: block;
+}
+img{
+    max-width:100%;
+    max-height:100%;
 }
 .rightlanding{
     width: 40%;
@@ -48,10 +61,25 @@ header{
     justify-content: center;
     padding-right: 60px;
 }
+.rightlanding h1{
+    font-size: 50px;
+}
 .startbutton{
-    background-color: rgb(58, 57, 57);
-    padding-top: 8px;
-    padding-bottom: 8px;
+    background-color: rgb(57, 57, 57);
     color:white;
     text-align: center;
+}
+/* Information */
+/* Courses */
+/* Thesis */
+.videocontainer{
+    width:60%;
+    height: auto;
+    margin: 32px 24px;
+    overflow: hidden;
+    display: block;
+}
+video{
+    max-height: 100%;
+    max-width: 100%;
 }
